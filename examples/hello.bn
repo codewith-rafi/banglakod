@@ -1,0 +1,22 @@
+dhoro a = 10;
+dhoro b = 2;
+
+lekho a + b;
+
+jodi a > b {
+    lekho "a boro";
+} nahole {
+    lekho "b boro";
+}
+
+dhoro i = 0;
+jokhon i < 3 {
+    lekho i;
+    i = i + 1;
+}
+
+function jog(x, y) {
+    ferot x + y;
+}
+
+lekho jog(5, 7);
