@@ -2,6 +2,8 @@
 
 Banglakod is a small Bangla-flavored programming language written in Python. The syntax uses Bangla keywords spelled in English, aimed at beginner-friendly learning.
 
+**Status**: Educational project | **Python**: 3.10+ | **License**: MIT
+
 File extension: `.bn`
 
 ## Features
@@ -109,3 +111,34 @@ pytest -q
 - No floats yet (integers only).
 - No arrays or dictionaries yet.
 - No modules/import system yet.
+
+## Roadmap
+
+- [ ] Float literals
+- [ ] Arrays/lists
+- [ ] Built-in functions (len, type, input)
+- [ ] String concatenation
+- [ ] For loops
+- [ ] Comments (# support — already in lexer)
+- [ ] File I/O
+
+## Contributing
+
+Contributions welcome! Feel free to open an issue or PR for:
+- Bug fixes
+- New language features
+- Better error messages
+- Documentation improvements
+
+## License
+
+MIT License. See LICENSE file for details.
+
+## Authors
+
+Built as an educational interpreter for learning language design and implementation.
+
+## See Also
+
+- [craftinginterpreters.com](https://craftinginterpreters.com) — Language interpreter design
+- [Pratt parsing](https://en.wikipedia.org/wiki/Operator-precedence_parser) — Parser technique used
